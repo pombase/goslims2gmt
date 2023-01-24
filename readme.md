@@ -1,5 +1,6 @@
 ## What it does
 
+Extract genes associated to go slims and convert them to gmt format using PomBase API.
 
 ## How to run
 
