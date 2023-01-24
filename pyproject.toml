@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "go-slims2gmt"
+version = "0.1.0"
+description = "Convert all go slims to gmt format"
+authors = ["Manuel Lera Ramirez <manulera14@gmail.com>"]
+readme = "README.md"
+packages = [{include = "go_slims2gmt"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+requests = "^2.28.2"
+pandas = "^1.5.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
